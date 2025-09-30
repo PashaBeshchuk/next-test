@@ -12,14 +12,15 @@ import Resellers from '@/assets/icons/Resellers';
 import SummaryIcon from '@/assets/icons/SummaryIcon';
 import UserSettingsIcon from '@/assets/icons/UserSettingsIcon';
 import React from 'react';
+import Link from 'next/link';
 
 const Navigation = () => {
   return (
     <nav className="sidebar-nav flex-1 overflow-y-auto p-2">
       <ul className="space-y-2">
         <li>
-          <a
-            href="/dashboard"
+          <Link
+            href="/"
             className="flex items-center gap-4 p-2 text-grey-800 rounded hover:bg-brand-50 group"
           >
             <span className="icon group-hover:text-brand-500  pl-1">
@@ -28,14 +29,14 @@ const Navigation = () => {
             <span className="font-space font-medium text-sm tracking-normal group-hover:text-brand-500">
               Dashboard
             </span>
-          </a>
+          </Link>
         </li>
         <li className="font-space font-medium text-[12px] leading-5 tracking-[0.7px] uppercase px-2 py-1 mt-4 text-gray-700">
           System Overview
         </li>
         <li>
-          <a
-            href="/dashboard"
+          <Link
+            href="/"
             className="flex items-center gap-4 p-2 text-grey-800 rounded hover:bg-brand-50 group"
           >
             <span className="icon group-hover:text-brand-500  pl-1">
@@ -44,11 +45,11 @@ const Navigation = () => {
             <span className="font-space font-medium text-sm tracking-normal group-hover:text-brand-500">
               Observability Overview
             </span>
-          </a>
+          </Link>
         </li>
         <li>
-          <a
-            href="/dashboard"
+          <Link
+            href="/"
             className="flex items-center gap-4 p-2 rounded hover:bg-brand-50 group text-grey-800"
           >
             <span className="icon group-hover:text-brand-500 pl-1">
@@ -58,7 +59,7 @@ const Navigation = () => {
             <span className="font-space font-medium text-sm tracking-normal group-hover:text-brand-500">
               Live Log Monitor
             </span>
-          </a>
+          </Link>
         </li>
 
         <li className="font-space font-medium text-[12px] leading-5 tracking-[0.7px] uppercase px-2 py-1 mt-4 text-gray-700">
@@ -66,8 +67,8 @@ const Navigation = () => {
         </li>
 
         <li>
-          <a
-            href="/dashboard"
+          <Link
+            href="/"
             className="flex items-center gap-4 p-2 rounded hover:bg-brand-50 group text-grey-800"
           >
             <span className="icon group-hover:text-brand-500 pl-1">
@@ -77,13 +78,10 @@ const Navigation = () => {
             <span className="font-space font-medium text-sm tracking-normal group-hover:text-brand-500">
               Summary
             </span>
-          </a>
+          </Link>
         </li>
         <li>
-          <a
-            href="/dashboard"
-            className="flex items-center gap-4 p-2 rounded hover:bg-brand-50 group"
-          >
+          <Link href="/" className="flex items-center gap-4 p-2 rounded hover:bg-brand-50 group">
             <span className="icon group-hover:text-brand-500 pl-1">
               <ProxyListIcon />
             </span>
@@ -91,11 +89,11 @@ const Navigation = () => {
             <span className="font-space font-medium text-sm tracking-normal group-hover:text-brand-500">
               Proxy List
             </span>
-          </a>
+          </Link>
         </li>
         <li>
-          <a
-            href="/dashboard"
+          <Link
+            href="/"
             className="flex items-center gap-4 p-2 rounded hover:bg-brand-50 group text-grey-800"
           >
             <span className="icon group-hover:text-brand-500 pl-1">
@@ -105,11 +103,11 @@ const Navigation = () => {
             <span className="font-space font-medium text-sm tracking-normal group-hover:text-brand-500">
               User Settings
             </span>
-          </a>
+          </Link>
         </li>
         <li>
-          <a
-            href="/dashboard"
+          <Link
+            href="/"
             className="flex items-center gap-4 p-2 rounded hover:bg-brand-50 group text-grey-800"
           >
             <span className="icon group-hover:text-brand-500 pl-1">
@@ -119,14 +117,14 @@ const Navigation = () => {
             <span className="font-space font-medium text-sm tracking-normal group-hover:text-brand-500">
               All Products
             </span>
-          </a>
+          </Link>
         </li>
         <li className="font-space font-medium text-[12px] leading-5 tracking-[0.7px] uppercase px-2 py-1 mt-4 text-gray-700">
           Developer Section
         </li>
         <li>
-          <a
-            href="/dashboard"
+          <Link
+            href="/"
             className="flex items-center gap-4 p-2 rounded hover:bg-brand-50 group text-grey-800"
           >
             <span className="icon group-hover:text-brand-500 pl-1">
@@ -135,11 +133,11 @@ const Navigation = () => {
             <span className="font-space font-medium text-sm tracking-normal group-hover:text-brand-500">
               API Keys
             </span>
-          </a>
+          </Link>
         </li>
         <li>
-          <a
-            href="/dashboard"
+          <Link
+            href="/"
             className="flex items-center gap-4 p-2 rounded hover:bg-brand-50 group text-grey-800"
           >
             <span className="icon group-hover:text-brand-500 pl-1">
@@ -148,14 +146,14 @@ const Navigation = () => {
             <span className="font-space font-medium text-sm tracking-normal group-hover:text-brand-500">
               API Requests
             </span>
-          </a>
+          </Link>
         </li>
         <li className="font-space font-medium text-[12px] leading-5 tracking-[0.7px] uppercase px-2 py-1 mt-4 text-gray-700">
           Affiliate Programs
         </li>
         <li>
-          <a
-            href="/dashboard"
+          <Link
+            href="/"
             className="flex items-center gap-4 p-2 rounded hover:bg-brand-50 group text-grey-800"
           >
             <span className="icon group-hover:text-brand-500 pl-1">
@@ -164,11 +162,11 @@ const Navigation = () => {
             <span className="font-space font-medium text-sm tracking-normal group-hover:text-brand-500">
               Resellers Statistics
             </span>
-          </a>
+          </Link>
         </li>
         <li>
-          <a
-            href="/dashboard"
+          <Link
+            href="/"
             className="flex items-center gap-4 p-2 rounded hover:bg-brand-50 group text-grey-800"
           >
             <span className="icon group-hover:text-brand-500 pl-1">
@@ -178,11 +176,11 @@ const Navigation = () => {
             <span className="font-space font-medium text-sm tracking-normal group-hover:text-brand-500">
               Affiliate Program
             </span>
-          </a>
+          </Link>
         </li>
         <div className="h-px w-full bg-gray-200"></div>
         <li>
-          <a
+          <Link
             href="/"
             className="flex items-center text-grey-800 gap-4 p-2 rounded hover:bg-brand-50 group text-grey-800"
           >
@@ -193,10 +191,10 @@ const Navigation = () => {
             <span className="font-space font-medium text-sm tracking-normal group-hover:text-brand-500">
               Billing
             </span>
-          </a>
+          </Link>
         </li>
         <li>
-          <a
+          <Link
             href="/"
             className="flex items-center gap-4 p-2 rounded hover:bg-brand-50 group text-grey-800"
           >
@@ -206,7 +204,7 @@ const Navigation = () => {
             <span className="font-space font-medium text-sm tracking-normal group-hover:text-brand-500">
               Help
             </span>
-          </a>
+          </Link>
         </li>
       </ul>
     </nav>
